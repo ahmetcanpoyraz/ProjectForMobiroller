@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="true">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="5dp">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:id="@+id/item_image"
+           android:src="@drawable/ic_launcher_background"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Name"
+           android:id="@+id/item_name"
+           android:textSize="18dp"
+           android:layout_marginTop="8dp"
+           android:layout_below="@+id/item_image"
+           android:textStyle="bold"
+           android:layout_marginLeft="10dp"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Name"
+           android:textSize="18dp"
+           android:id="@+id/item_price"
+           android:layout_marginTop="8dp"
+           android:layout_below="@+id/item_name"
+           android:layout_marginLeft="10dp"
+           />
+
+
+   </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

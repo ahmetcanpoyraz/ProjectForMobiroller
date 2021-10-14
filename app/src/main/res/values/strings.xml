@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MobirollerOdev</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error">Error</string>
+
+
+    <string-array name="categories">
+        <item>T-shirts</item>
+        <item>Coats</item>
+        <item>Shoes</item>
+
+    </string-array>
+
+    <string-array name="orderby">
+        <item>Date</item>
+        <item>Name</item>
+        <item>Price</item>
+
+    </string-array>
+
+</resources>

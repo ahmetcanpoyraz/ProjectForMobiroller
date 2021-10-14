@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "264209897596",
+    "project_id": "mobiroller-f2da7",
+    "storage_bucket": "mobiroller-f2da7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264209897596:android:80d5ce9b347f1204dfd1f9",
+        "android_client_info": {
+          "package_name": "com.example.mobirollerodev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264209897596-3bvuumtm076nsaknhn1912regfejemmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGgNDrK_pnPusPPbDYN-KrurAm7G-C_Rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264209897596-3bvuumtm076nsaknhn1912regfejemmb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
